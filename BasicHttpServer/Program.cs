@@ -37,7 +37,7 @@ namespace BasicHttpServer
                 // Prepare and sent the response
                 string response =
                     "HTTP/1.1 200 OK\r\n" +
-                    "Content-Length: 12\r\n" + // Uncomment this to have the HttpClient working
+                    //"Content-Length: 12\r\n" + // Uncomment this to have the HttpClient working
                     "\r\n" +
                     "Hello world!";
                 stream.Write(Encoding.ASCII.GetBytes(response));
